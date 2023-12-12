@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: grey solid 2px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  
+
+  }
+
+.a-bnb-logo {
+  max-height: 32px; 
+  margin-top: 10px;
+    
+  
+  }
+
+.aaa-box{ 
+  display: flex;
+  
+  }
+  
+button {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-color: #EBEBEB;
+  border-radius: 30px;
+  padding: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; 
+  box-shadow: 0 0 3px rgba(128, 128, 128, 0.3);
+  
+}
+
+button:hover{
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+}
+    
+.aaa-box img {
+    width: 30px;
+}
+.AAA {
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.mag-but {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FF395C;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.sil-o-wet {
+  width: 15px;
+}
+
+.btn-cluster-right{
+  display: flex;
+  flex-direction: row;
+}
